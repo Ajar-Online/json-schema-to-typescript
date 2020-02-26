@@ -5,7 +5,7 @@ export const input = {
     "bar": {
       "type": "integer",
       "enum": [1, 2, 3],
-      "tsEnumNames": ["One", 2, "Three"]
+      "tsEnumNames": ["One","two", "Three"]
     }
   },
   "required": ["bar"],
