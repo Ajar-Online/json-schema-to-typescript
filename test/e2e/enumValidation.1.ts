@@ -4,7 +4,7 @@ export const input = {
   "properties": {
     "bar": {
       "type": "integer",
-      "enum": [1, 2, 3],
+      "enum": [1, 2],
       "tsEnumNames": ["One", "Three"]
     }
   },

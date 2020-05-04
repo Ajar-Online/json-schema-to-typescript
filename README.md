@@ -92,6 +92,7 @@ See [server demo](example) and [browser demo](https://github.com/bcherny/json-sc
 | unreachableDefinitions | boolean | `false` | Generates code for `definitions` that aren't referenced by the schema. |
 | strictIndexSignatures | boolean | `false` | Append all index signatures with `| undefined` so that they are strictly typed. |
 | $refOptions | object | `{}` | [$RefParser](https://github.com/BigstickCarpet/json-schema-ref-parser) Options, used when resolving `$ref`s |
+| readonly | boolean | `false` | Append all the index signatures with `readonly ` so that they are readonly.
 ## CLI
 
 A simple CLI utility is provided with this package.
